@@ -159,7 +159,11 @@
   cursor: pointer;
   border-radius: 4px;
 }
-
+.req_btn:hover {
+  border: 2px solid #1c4670;
+  color: #1c4670;
+  background: transparent;
+}
 @keyframes slide-up {
   from {
     opacity: 0;

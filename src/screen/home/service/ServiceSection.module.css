@@ -126,6 +126,11 @@
   border-radius: 4px;
 }
 
+.req_btn:hover {
+  border: 2px solid #1c4670;
+  color: #1c4670;
+  background-color: transparent;
+}
 /* responsive */
 
 @media (max-width: 900px) {
@@ -138,11 +143,14 @@
   }
 
   .service_container_title {
+    width: 85%;
     font-size: 12px;
+    text-align: left;
   }
   .service_container_subtitle {
-    width: 90%;
+    width: 85%;
     font-size: 24px;
+    text-align: left;
   }
   .service_layout_container {
     width: 100%;
