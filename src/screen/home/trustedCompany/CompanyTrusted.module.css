@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: Outfit, sans-serif;
+}
+
+.company_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 5% 0;
+}
+.company_container_text {
+  text-align: center;
+  width: 90%;
+  font-size: 22px;
+  color: #272d37;
+  line-height: 26.63px;
+  font-weight: 700;
+}
+
+.company_container_icon_layout {
+  /* width: 70%; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row !important;
+  gap: 50px;
+}
+.icon_layout {
+  width: 138px;
+  height: 18px;
+}
+
+@media (max-width: 950px) {
+  .company_container {
+    gap: 40px;
+    padding: 5% 0%;
+    align-items: center;
+  }
+  .company_container_text {
+    text-align: center;
+    width: 90%;
+    font-size: 16px;
+    color: #272d37;
+    line-height: 26.63px;
+    font-weight: 700;
+  }
+
+  .company_container_icon_layout {
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    /* width: 70%; */
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .icon_layout {
+    width: 108px;
+    height: 15px;
+  }
+}

@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: Outfit, sans-serif;
+}
+
+.service_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 5% 0;
+  background-color: #fafafa;
+}
+.service_container_title_layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.service_container_title {
+  text-align: center;
+  width: 90%;
+  font-size: 14px;
+  line-height: 21px;
+  color: #eb8d15;
+  font-weight: 400;
+}
+.service_container_subtitle {
+  text-align: center;
+  width: 90%;
+  font-size: 32px;
+  line-height: 21px;
+  color: #272d37;
+  font-weight: 700;
+}
+.service_layout_container {
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  /* width: 70%; */
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.service_layout {
+  cursor: pointer;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 28%;
+  /* border: 1px solid #e5e2df; */
+  border-radius: 8px;
+  box-shadow: 0px 13px 36px 0px rgba(191, 191, 191, 0),
+    0px 104px 42px 0px rgba(191, 191, 191, 0.01),
+    0px 59px 35px 0px rgba(191, 191, 191, 0.05),
+    0px 26px 26px 0px rgba(191, 191, 191, 0.09),
+    0px 7px 14px 0px rgba(191, 191, 191, 0.1);
+}
+
+.service_title {
+  font-size: 20px;
+  font-weight: 800;
+  color: #000000;
+  align-items: center;
+  text-align: center;
+  line-height: 22px;
+}
+.service_content {
+  font-size: 17.5px;
+  font-weight: 300;
+  color: #282728;
+  align-items: center;
+  text-align: center;
+  line-height: 26px;
+  width: 80%;
+}
+.icon_layout {
+  width: 60px;
+  height: 60px;
+}
+.service_learnmore {
+  color: #001038;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row !important;
+  gap: 10px;
+}
+.service_learnmore p {
+  border: 1px solid black;
+  font-weight: 800;
+  width: 16px;
+  font-size: 14px;
+  height: 16px;
+  border-radius: 50%;
+}
+.req_btn {
+  display: inline-flex;
+  height: auto;
+  padding: 15px 2.5rem;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-shrink: 0;
+  background: #1c4670;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* responsive */
+
+@media (max-width: 900px) {
+  .service_container {
+    gap: 25px;
+  }
+
+  .service_container_title_layout {
+    gap: 5px;
+  }
+
+  .service_container_title {
+    font-size: 12px;
+  }
+  .service_container_subtitle {
+    width: 90%;
+    font-size: 24px;
+  }
+  .service_layout_container {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .service_layout {
+    padding: 20px 0;
+    gap: 10px;
+    width: 40%;
+  }
+
+  .service_title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+  }
+
+  .service_content {
+    font-size: 13.5px;
+    line-height: 15px;
+  }
+  .icon_layout {
+    width: 40px;
+    height: 40px;
+  }
+  .service_learnmore {
+    font-size: 12px;
+    gap: 5px;
+  }
+  .service_learnmore p {
+    width: 14px;
+    font-size: 12px;
+    height: 14px;
+  }
+  .req_btn {
+    display: inline-flex;
+    height: auto;
+    padding: 12px 1rem;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+    background: #1c4670;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 450px) {
+  .service_layout {
+    padding: 20px 20px;
+    gap: 10px;
+    width: 50%;
+  }
+}

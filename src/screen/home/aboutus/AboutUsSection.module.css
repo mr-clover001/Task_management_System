@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: Outfit, sans-serif;
+}
+
+.our_story_container {
+  padding: 5% 10%;
+  width: 100%;
+  /* background: #f0f0f0; */
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Top Section */
+.our_story_container_top {
+  display: flex;
+  flex-direction: row !important;
+  width: 100%;
+  gap: 0px;
+  /* justify-content: center; */
+  /* height: 50vh; */
+}
+
+.top_img_container {
+  /* background-image: url("./../../../assests/photo.png"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: auto;
+  width: 40%;
+}
+
+/* Image Poster */
+
+.left_content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.top_content_layout_btn {
+  background-color: #1c4670;
+  width: 25%;
+  font-size: 16px;
+  padding: 2% 0%;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.top_content_layout_btn:hover {
+  border: 2px solid #1c4670;
+  color: #1c4670;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.top_content {
+  background-color: #fff;
+  width: 50%;
+  padding: 0% 4%;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  /* gap: 30px; */
+}
+.top_content_layout1 {
+  display: flex;
+  flex-direction: column !important;
+  gap: 40px;
+}
+.top_content_layout {
+  display: flex;
+  flex-direction: column !important;
+
+  padding: 7% 0%;
+  gap: 20px;
+}
+
+.top_content_layout_head {
+  display: flex;
+  flex-direction: row !important;
+  gap: 22px;
+}
+.top_content_layout_head_img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0386f8;
+  color: #fff;
+  border-radius: 4px;
+}
+.top_content_layout_head_img img {
+  width: 28px;
+  height: 28px;
+  /* border: 1px solid black; */
+  border-radius: 4px;
+  filter: brightness(0) saturate(100%);
+}
+.top_content_layout_head_title {
+  color: #eb8d15;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+.top_content_layout_head_title p {
+  justify-content: center;
+  color: #eb8d15;
+  display: contents;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.top_content_layout_head_title span {
+  display: contents;
+  color: #272d37;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+
+.top_content_layout_info {
+  color: #0d1216;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.16px;
+}
+
+/* remove */
+@media (max-width: 800px) {
+  .our_story_container {
+    padding: 2% 2%;
+
+    width: 100%;
+    background: #f0f0f0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .our_story_container_top {
+    flex-direction: column !important;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top_img_container {
+    /* background-image: url("./../../../assests/photo2.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 428px;
+    width: 95%;
+  }
+  .top_content {
+    background-color: #fff;
+    width: 91%;
+    padding: 4% 4%;
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    /* gap: 30px; */
+  }
+  .top_content_layout1 {
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    flex-direction: column !important;
+    padding: 8% 0%;
+    gap: 20px;
+
+    text-align: left;
+  }
+  .top_content_layout_head_title p {
+    font-size: 16px;
+  }
+  .top_content_layout_head_title {
+    justify-content: center;
+    color: #eb8d15;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
+  }
+  .top_content_layout_head_title span {
+    justify-content: center;
+    color: #0d1216;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
+  }
+  .top_content_layout {
+    display: flex;
+    flex-direction: column !important;
+    text-align: left;
+    padding: 7% 0%;
+    gap: 20px;
+  }
+
+  .top_content_layout_info {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.12px;
+  }
+  .our_story_container_bot {
+    width: 90%;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column !important;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: left;
+    gap: 30px;
+  }
+  .top_content_layout_btn {
+    background-color: #002d62;
+    width: 35%;
+    font-size: 12px;
+    padding: 2% 0%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .left_content {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+}
+
+/* Why Register Karo CSs */
+
+.yourQuery_container {
+  padding: 5% 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  gap: 50px;
+}
+.yourQuery_container_left_lay {
+  width: 50%;
+}
+.yourQuery_container_left {
+  width: 100%;
+  display: flex;
+  flex-direction: column !important;
+  gap: 20px;
+  align-self: left;
+}
+.left_title {
+  font-size: 14px;
+  color: #eb8d15;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.left_subtitle {
+  font-size: 32px;
+  color: #272d37;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.leftouery_content {
+  width: 100%;
+  font-size: 15px;
+  color: #0d1216;
+}
+
+.yourQuery_container_right {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: left;
+  align-items: center;
+}
+.card_sep_query {
+  padding: 30px 30px;
+  width: 30%;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  border: 1px solid #fcddec;
+}
+.card_query {
+  padding: 30px 30px;
+  width: 30%;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  border: 1px solid #fcddec;
+}
+.card_query_icon {
+}
+
+.card_query_title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card_query_desc {
+  color: #666666;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .yourQuery_container {
+    padding: 5% 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .card_sep_query {
+    display: none;
+  }
+  .yourQuery_container {
+    background-color: #fff;
+    flex-direction: column !important;
+    gap: 50px;
+  }
+  .yourQuery_container_left_lay {
+    text-align: left;
+    width: 90%;
+  }
+  .yourQuery_container_left {
+    gap: 10px;
+  }
+
+  .yourQuery_container_right {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_query {
+    padding: 30px 30px;
+    width: 40%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    border: 1px solid #fcddec;
+  }
+}
+
+@media (max-width: 600px) {
+  .yourQuery_container {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+  }
+  .yourQuery_container_left {
+    gap: 10px;
+  }
+  .yourQuery_container_right {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card_query {
+    padding: 30px 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    border: 1px solid #fcddec;
+  }
+  .left_title {
+    font-size: 12px;
+    color: #eb8d15;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  .left_subtitle {
+    font-size: 24px;
+    color: #272d37;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .leftouery_content {
+    width: 100%;
+    font-size: 13px;
+    color: #0d1216;
+  }
+  .card_query_title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .card_query_desc {
+    color: #666666;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
