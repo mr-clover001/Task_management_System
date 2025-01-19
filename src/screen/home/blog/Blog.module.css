@@ -60,8 +60,12 @@
   gap: 20px;
   width: 28%;
   height: 100%;
-  /* border: 1px solid #e5e2df; */
   border-radius: 8px;
+  transition: transform 0.3s ease, 0.3s ease;
+}
+
+.service_layout:hover {
+  transform: scale(1.05);
 }
 .icon_layout {
   height: 60%;
@@ -124,7 +128,7 @@
   display: inline-flex;
   flex-direction: row !important;
   height: auto;
-  padding: 15px 2.5rem;
+  padding: 15px 1.5rem;
   width: fit-content;
   justify-content: center;
   align-items: center;
@@ -216,11 +220,11 @@
   .req_btn {
     display: inline-flex;
     height: auto;
-    padding: 12px 1rem;
+    padding: 12px 0.6rem;
     width: fit-content;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    /* gap: 30px; */
     flex-shrink: 0;
     background: #1c4670;
     color: #fff;

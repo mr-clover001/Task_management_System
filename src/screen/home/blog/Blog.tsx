@@ -38,6 +38,7 @@ const Blog = () => {
     {
       id: 4,
       src: Image4,
+      author: "Rakhi Verma",
       title: "Scale-Up Company Offer",
       date: " 1 Jan 2023 ",
       content:
@@ -46,6 +47,7 @@ const Blog = () => {
     {
       id: 5,
       src: Image5,
+      author: "Rakhi Verma",
       title: "Scale-Up Company Offer",
       date: " 1 Jan 2023 ",
       content:
@@ -54,6 +56,7 @@ const Blog = () => {
     {
       id: 6,
       src: Image1,
+      author: "Rakhi Verma",
       title: "Scale-Up Company Offer",
       date: " 1 Jan 2023 ",
       content:

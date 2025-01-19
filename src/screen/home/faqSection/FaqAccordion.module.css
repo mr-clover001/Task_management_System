@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: Outfit, sans-serif;
+}
+
+.accordion__section {
+  width: 100%;
+  display: flex;
+  flex-direction: column !important;
+  transition: background-color 0.6s ease, box-shadow 0.3s ease; /* Smooth transition */
+  justify-content: center;
+  padding: 2% 2% 0% 2%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-left: 6px solid; /* Adjust the border width */
+  border-image-source: linear-gradient(to bottom, #ffa229, #1c4670);
+  border-image-slice: 1;
+  border-radius: 5px;
+}
+
+.accordion__section:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.accordion {
+  color: #444;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+}
+
+.accordion__title {
+  width: 60%;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 138%; /* 44.16px */
+  text-transform: capitalize;
+}
+
+.accordion_info {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--8px, 8px);
+  align-self: stretch;
+  padding: 12px 0 0px 0px;
+  margin-left: 38px;
+  width: 70%;
+}
+.accordion__section_down img {
+  width: 20px;
+  height: 20px;
+}
+
+.accordion__icon {
+  stroke-width: 4.148px;
+  stroke: #000;
+  width: 0px;
+  height: 4.148px;
+  flex-shrink: 0;
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.accordion__content {
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  /* line-height: 150%; */
+  padding: 30px 0px 0px 0px;
+}
+
+.accordion__text {
+  color: #000;
+  width: 80%;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1183px) {
+  .accordion__title {
+    width: 60%;
+    color: #000;
+    font-size: 16px;
+  }
+  .accordion__text {
+    color: #000;
+    width: 80%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+}
+
+@media (max-width: 800px) {
+  .accordion__title {
+    font-size: 10px;
+  }
+  .accordion__content {
+    padding: 10px 0px 0px 0px;
+  }
+  .accordion__text {
+    font-size: 8px;
+    padding-bottom: 10px;
+  }
+  .accordion__section_down img {
+    width: 10px;
+    height: 10px;
+  }
+}
