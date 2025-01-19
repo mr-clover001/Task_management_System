@@ -13,6 +13,7 @@ import ServiceSection from "./service/ServiceSection";
 import IdeasSection from "./idea/IdeasSection";
 import Blog from "./blog/Blog";
 import FaqAccordion from "./faqSection/FaqAccordion";
+import AchivementSection from "./achivement/AchivementSection";
 const HomeScreen = () => {
   const [showAll, setShowAll] = useState(false);
   useEffect(() => {
@@ -154,7 +155,6 @@ const HomeScreen = () => {
               Frequently asked questions
             </Stack>{" "}
           </Stack>
-
           <Stack className={Styles.faq_section_accordion}>
             {/* Initially show only 2 FAQ items */}
             {faqItems
@@ -181,6 +181,10 @@ const HomeScreen = () => {
             </Stack>
           </Stack>
         </Box>
+
+        {/* Achivement and Connect with Us */}
+
+        <AchivementSection />
       </Box>
     </>
   );

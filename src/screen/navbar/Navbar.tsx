@@ -61,10 +61,19 @@ const Navbar = () => {
                 <FacebookIcon sx={{ fontSize: { xs: "18px", md: "24px" } }} />
               </Stack>
               <Stack className={Styles.layout_icon}>
-                <TwitterIcon sx={{ fontSize: { xs: "18px", md: "24px" } }} />
+                <TwitterIcon
+                  sx={{
+                    fontSize: { xs: "18px", md: "24px" },
+                  }}
+                />
               </Stack>
               <Stack className={Styles.layout_icon}>
-                <LinkedInIcon sx={{ fontSize: { xs: "18px", md: "24px" } }} />
+                <LinkedInIcon
+                  sx={{
+                    fontSize: { xs: "18px", md: "24px" },
+                    display: { xs: "none", md: "block" },
+                  }}
+                />
               </Stack>
             </Stack>
           </Stack>

@@ -80,12 +80,7 @@ const AboutUsSection = () => {
 
         {/* Why Choose to Register Karo */}
 
-        <Box
-          className={Styles.yourQuery_container}
-          sx={{
-            padding: { xs: "20px 10px", md: "100px 0px 0 150px" },
-          }}
-        >
+        <Box className={Styles.yourQuery_container}>
           <Stack
             display={"flex"}
             flexDirection={"column"}

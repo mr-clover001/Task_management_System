@@ -205,6 +205,7 @@
 }
 
 .faq_title_lay {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -212,11 +213,13 @@
   gap: 26px;
 }
 .faq_section_container_subtitle {
-  font-size: 14px;
-  color: #eb8d15;
+  width: 85%;
   text-align: center;
+  font-size: 16px;
+  color: #eb8d15;
 }
 .faq_section_container_title {
+  width: 85%;
   color: #000;
   text-align: center;
   font-size: 32px;
@@ -268,6 +271,23 @@
 /* responsive design */
 
 @media (max-width: 950px) {
+  .faq_section_container_subtitle {
+    width: 85%;
+    text-align: left;
+    font-size: 16px;
+    color: #eb8d15;
+  }
+  .faq_section_container_title {
+    width: 85%;
+    color: #000;
+    text-align: left;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 32px */
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+  }
   .homepage_banner_content {
     width: 90%;
     height: 60vh;
