@@ -10,6 +10,8 @@ import handshake from "../../assests/handshake.svg";
 import AboutUsSection from "./aboutus/AboutUsSection";
 import CompanyTrusted from "./trustedCompany/CompanyTrusted";
 import ServiceSection from "./service/ServiceSection";
+import IdeasSection from "./idea/IdeasSection";
+import Blog from "./blog/Blog";
 const HomeScreen = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -111,6 +113,13 @@ const HomeScreen = () => {
         <Box className={Styles.story_section_container}>
           <AboutUsSection />
         </Box>
+
+        {/* Idea Section */}
+        <IdeasSection />
+
+        {/* Blog */}
+
+        <Blog />
       </Box>
     </>
   );
