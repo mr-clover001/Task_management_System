@@ -14,6 +14,7 @@ import IdeasSection from "./idea/IdeasSection";
 import Blog from "./blog/Blog";
 import FaqAccordion from "./faqSection/FaqAccordion";
 import AchivementSection from "./achivement/AchivementSection";
+import TestimonialsCarousel from "./testimonal/TestimonialsCarousel";
 const HomeScreen = () => {
   const [showAll, setShowAll] = useState(false);
   useEffect(() => {
@@ -146,6 +147,11 @@ const HomeScreen = () => {
 
         {/* Blog */}
         <Blog />
+
+        {/* Testimonalis */}
+        <Stack sx={{ display: { xs: "none", md: "block" } }}>
+          <TestimonialsCarousel />
+        </Stack>
 
         {/* FAQs Section */}
         <Box className={Styles.faq_section_container}>
