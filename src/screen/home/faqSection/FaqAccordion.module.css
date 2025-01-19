@@ -16,6 +16,7 @@
   border-image-source: linear-gradient(to bottom, #ffa229, #1c4670);
   border-image-slice: 1;
   border-radius: 5px;
+  background: #fff;
 }
 
 .accordion__section:hover {
